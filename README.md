@@ -81,3 +81,5 @@ This script can be used to analyze any financial data. It was able to determine 
 This script can be used to analyze any election. It was able to determine on its own how many different candidates and counties were in the results. It also tallied the votes for each candidate, determined the winning candidate from the total votes, and found which county had the most effect on the outcome of the election. Some modifications that can be made to the script are:
 - To implement additional security measures to ensure the integrity of the data. For example, we can add a feature that checks for any irregularities or anomalies in the data, such as duplicate or missing votes, and alerts the administrator if any issues are found. 
 - We also have the possibility of breaking down the data even more. With this we can display the voter's political views, gender, ethnicity and race, and age for example.
+---
+View the Project on [GitHub](https://github.com/kenlo94/financial_election_analysis)
