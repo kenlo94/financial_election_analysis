@@ -46,7 +46,7 @@ The task is to create a Python script that analyzes the records and:
 ***The pie charts were created using Tableau.***
 ![Screenshot](PyPoll/Images/cnty_res.PNG)
 
-![Screenshot](PyPoll/Images/cand_res2.png)
+![Screenshot](PyPoll/Images/cand_res.PNG)
 
 - There were 369,711 total votes cast in the election.
 - The counties where the votes were collected were:
