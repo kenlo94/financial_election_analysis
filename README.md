@@ -43,9 +43,9 @@ The task is to create a Python script that analyzes the records and:
 ### PyPoll
 ![Screenshot](PyPoll/Images/election_analysis.PNG)
 
-![Screenshot](PyPoll/Images/County_results.PNG)
+![Screenshot](PyPoll/Images/cnty_res.PNG)
 
-![Screenshot](PyPoll/Images/Candidate_results.PNG)
+![Screenshot](PyPoll/Images/cand_res.PNG)
 
 - There were 369,711 total votes cast in the election.
 - The counties where the votes were collected were:
