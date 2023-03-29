@@ -44,6 +44,7 @@ The task is to create a Python script that analyzes the records and:
 ![Screenshot](PyPoll/Images/election_analysis.PNG)
 
 ***The pie charts were created using Tableau.***
+
 ![Screenshot](PyPoll/Images/cont_res.PNG)
 
 ![Screenshot](PyPoll/Images/cndt_res.PNG)
