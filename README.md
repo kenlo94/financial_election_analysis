@@ -1,4 +1,4 @@
-# Financial Analysis & Election Analysis using Python
+# Python-Based Financial and Election Analyses: A Case Study
 
 ## Resources
 - Data sources: budget_data.csv, election_results.csv
@@ -6,7 +6,7 @@
 
 ## Project Overview
 ### PyBank
-Use the budget data provided to analyze the financial records of a company.
+**Use the budget data provided to analyze the financial records of a company.**
 
 The task is to create a Python script that analyzes the records and:
 1. Calculates the total number of months included in the dataset
@@ -17,7 +17,7 @@ The task is to create a Python script that analyzes the records and:
 6. Exports the results to a text file in the analysis folder
 
 ### PyPoll
-Use the election results provided to complete the audit of a recent local congressional election. 
+**Use the election results provided to complete the audit of a recent local congressional election.**
 
 The task is to create a Python script that analyzes the records and:
 
