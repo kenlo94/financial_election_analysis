@@ -32,11 +32,15 @@ The task is to create a Python script that analyzes the records and:
 
 ## Results & Analysis
 ### PyBank
+After executing the script to analyze the financial records, I achieved the results below:
+
 ![Screenshot](PyBank/Images/Budget_analysis.PNG)
 
-There were 86 total months included in the dataset. The net total amount was `$22,564,198` and the average change on a month-to-month basis was `$-8,311.11.` The greatest increase in profits was `$1,862,002` which occurred in August 2016 and the greatest decrease in profits was `$-1,825,558` which occurred in February 2014
+There were 86 total months included in the dataset. The net total amount was `$22,564,198` and the average change on a month-to-month basis was `$-8,311.11.` The greatest increase in profits was `$1,862,002` which occurred in August 2016 and the greatest decrease in profits was `$-1,825,558` which occurred in February 2014.
 
 ### PyPoll
+After executing the script to analyze the election results, I achieved the outcome below:
+
 ![Screenshot](PyPoll/Images/election_analysis.PNG)
 
 There were 369,711 total votes cast in the election. The counties where the votes were collected were Jefferson County, Denver County, and Arapahoe County.
