@@ -34,42 +34,20 @@ The task is to create a Python script that analyzes the records and:
 ### PyBank
 ![Screenshot](PyBank/Images/Budget_analysis.PNG)
 
-- There were 86 total months included in the dataset
-- The net total amount was $22,564,198
-- The average change on a month-to-month basis was $-8,311.11
-- The greatest increase in profits was $1,862,002 which occurred in August 2016
-- The greatest decrease in profits was $-1,825,558 which occurred in February 2014
+There were 86 total months included in the dataset. The net total amount was `$22,564,198` and the average change on a month-to-month basis was `$-8,311.11.` The greatest increase in profits was `$1,862,002` which occurred in August 2016 and the greatest decrease in profits was `$-1,825,558` which occurred in February 2014
 
 ### PyPoll
 ![Screenshot](PyPoll/Images/election_analysis.PNG)
 
-***The pie charts were created using Tableau.***
+There were 369,711 total votes cast in the election. The counties where the votes were collected were Jefferson County, Denver County, and Arapahoe County.
 
 ![Screenshot](PyPoll/Images/cont_res.PNG)
 
+The county with the largest number of votes was Denver County with 306,055 votes or 82.8% of the total votes.
+
 ![Screenshot](PyPoll/Images/cndt_res.PNG)
 
-- There were 369,711 total votes cast in the election.
-- The counties where the votes were collected were:
-    - Jefferson County
-    - Denver County
-    - Arapahoe County
-- The results for each county:
-    - Jefferson County accounted for 38,855 votes which was 10.5% of the total votes.
-    - Denver County accounted for 306,055 votes which was 82.8% of the total votes.
-    - Arapahoe County accounted for 24,801 votes which was 6.7% of the total votes.
-- The county with the largest number of votes was:
-    - Denver County with 306,055 votes or 82.8% of the total votes.
-- The candidates were:
-    - Charles Casper Stockham
-    - Diana DeGette
-    - Raymon Anthony Doane
-- The candidate results:
-    - Charles Casper Stockham received 85,213 votes which was 23.0% of the total votes.
-    - Diana DeGette received 272,892 votes which was 73.8% of the total votes.
-    - Raymon Anthony Doane received 11,606 votes which was 3.1% of the total votes.
-- Based on the candidate results above, the winner of the election is:
-    - Diana DeGette, who received 272,892 votes or 73.8% of the total votes.
+Based on the candidate results above, the winner of the election is Diana DeGette, who received 272,892 votes or 73.8% of the total votes.
 
 ## Drawing Insights
 
