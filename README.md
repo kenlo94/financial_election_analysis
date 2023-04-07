@@ -63,7 +63,4 @@ This script can be used to analyze any election. It was able to determine on its
 - We also have the possibility of breaking down the data even more. With this we can display the voter's political views, gender, ethnicity and race, and age for example.
 
 ---
-<div style="display: flex; justify-content: space-between;">
-    <div>Return to the <a href="https://kenlo94.github.io/">Homepage</a></div>
-    <div>View the Project on <a href="https://github.com/kenlo94/financial_election_analysis">GitHub</a></div>
-</div>
+Return to the [Homepage](https://kenlo94.github.io/)
