@@ -4,7 +4,7 @@
 - Data sources: budget_data.csv, election_results.csv
 - Software: Python 3.9.7, Visual Studio Code 1.76.1
 
-## Project Overview
+## Project Objectives
 ### PyBank
 **Use the budget data provided to analyze the financial records of a company.**
 
