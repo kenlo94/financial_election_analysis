@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-07QV7C307D"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-07QV7C307D');
+    </script>
+    <meta charset="utf-8">
+    <title>Python-Based Financial and Election Analyses: A Case Study</title>
+    <style>
+        #preview {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        p.has-line-data[data-line-start="38"] {
+            margin-top: 2em;
+        }
+
+        body {
+            font-size: 20px;
+        }
+
+        .my-hr {
+            margin-top: -1.25em !important;
+            margin-bottom: 0em !important;
+        }
+    </style>
+</head>
+
+<body id="preview">
+    <h1 class="code-line" data-line-start=0 data-line-end=1><a
+            id="PythonBased_Financial_and_Election_Analyses_A_Case_Study_0"></a>Python-Based Financial and Election
+        Analyses: A Case Study</h1>
+    <h2 class="code-line" data-line-start=2 data-line-end=3><a id="Resources_2"></a>Resources</h2>
+    <hr class="my-hr">
+    <ul>
+        <li class="has-line-data" data-line-start="3" data-line-end="4">Data sources: budget_data.csv,
+            election_results.csv</li>
+        <li class="has-line-data" data-line-start="4" data-line-end="6">Software: Python 3.9.7, Visual Studio Code
+            1.76.1</li>
+    </ul>
+    <h2 class="code-line" data-line-start=6 data-line-end=7><a id="Project_Objectives_6"></a>Project Objectives</h2>
+    <hr class="my-hr">
+    <h3 class="code-line" data-line-start=7 data-line-end=8><a id="PyBank_7"></a>PyBank</h3>
+    <p class="has-line-data" data-line-start="8" data-line-end="9"><strong>Use the budget data provided to analyze the
+            financial records of a company.</strong></p>
+    <p class="has-line-data" data-line-start="10" data-line-end="11">The task is to create a Python script that analyzes
+        the records and:</p>
+    <ol>
+        <li class="has-line-data" data-line-start="11" data-line-end="12">Calculates the total number of months included
+            in the dataset</li>
+        <li class="has-line-data" data-line-start="12" data-line-end="13">Calculates the net total amount of
+            “Profit/Losses” over the entire period</li>
+        <li class="has-line-data" data-line-start="13" data-line-end="14">Calculates the changes in “Profit/Losses” over
+            the entire period, and then the average of those changes</li>
+        <li class="has-line-data" data-line-start="14" data-line-end="15">Calculates the greatest increase in profits
+            (date and amount) over the entire period</li>
+        <li class="has-line-data" data-line-start="15" data-line-end="16">Calculates the greatest decrease in profits
+            (date and amount) over the entire period</li>
+        <li class="has-line-data" data-line-start="16" data-line-end="18">Exports the results to a text file in the
+            analysis folder</li>
+    </ol>
+    <h3 class="code-line" data-line-start=18 data-line-end=19><a id="PyPoll_18"></a>PyPoll</h3>
+    <p class="has-line-data" data-line-start="19" data-line-end="20"><strong>Use the election results provided to
+            complete the audit of a recent local congressional election.</strong></p>
+    <p class="has-line-data" data-line-start="21" data-line-end="22">The task is to create a Python script that analyzes
+        the records and:</p>
+    <ol>
+        <li class="has-line-data" data-line-start="23" data-line-end="24">Calculates the total number of votes cast</li>
+        <li class="has-line-data" data-line-start="24" data-line-end="25">Retrieves the counties where the votes were
+            collected</li>
+        <li class="has-line-data" data-line-start="25" data-line-end="26">Calculates the voting results from each county
+        </li>
+        <li class="has-line-data" data-line-start="26" data-line-end="27">Determines the county with the largest number
+            of votes</li>
+        <li class="has-line-data" data-line-start="27" data-line-end="28">Retrieves a complete list of candidates who
+            received votes</li>
+        <li class="has-line-data" data-line-start="28" data-line-end="29">Calculates the total number and percentage of
+            votes each candidate received</li>
+        <li class="has-line-data" data-line-start="29" data-line-end="30">Determines the winner of the election based on
+            the amount of votes received</li>
+        <li class="has-line-data" data-line-start="30" data-line-end="32">Exports the results to a text file in the
+            analysis folder</li>
+    </ol>
+    <h2 class="code-line" data-line-start=32 data-line-end=33><a id="Results__Analysis_32"></a>Results &amp; Analysis
+    </h2>
+    <hr class="my-hr">
+    <h3 class="code-line" data-line-start=33 data-line-end=34><a id="PyBank_33"></a>PyBank</h3>
+    <p class="has-line-data" data-line-start="34" data-line-end="35"><img src="PyBank/Images/Budget_analysis.PNG"
+            alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="36" data-line-end="37">There were 86 total months included in the dataset.
+        The net total amount was <code>$22,564,198</code> and the average change on a month-to-month basis was
+        <code>$-8,311.11.</code> The greatest increase in profits was <code>$1,862,002</code> which occurred in August
+        2016 and the greatest decrease in profits was <code>$-1,825,558</code> which occurred in February 2014.</p>
+    <h3 class="code-line" data-line-start=38 data-line-end=39><a id="PyPoll_38"></a>PyPoll</h3>
+    <p class="has-line-data" data-line-start="39" data-line-end="40"><img src="PyPoll/Images/election_analysis.PNG"
+            alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="41" data-line-end="42">There were 369,711 total votes cast in the
+        election. The counties where the votes were collected were Jefferson County, Denver County, and Arapahoe County.
+    </p>
+    <p class="has-line-data" data-line-start="43" data-line-end="44"><img src="PyPoll/Images/cont_res.PNG"
+            alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="45" data-line-end="46">The county with the largest number of votes was
+        Denver County with 306,055 votes or 82.8% of the total votes.</p>
+    <p class="has-line-data" data-line-start="47" data-line-end="48"><img src="PyPoll/Images/cndt_res.PNG"
+            alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="49" data-line-end="50">Based on the candidate results above, the winner of
+        the election is Diana DeGette, who received 272,892 votes or 73.8% of the total votes.</p>
+    <h2 class="code-line" data-line-start=51 data-line-end=52><a id="Drawing_Insights_51"></a>Drawing Insights</h2>
+    <hr class="my-hr">
+    <h3 class="code-line" data-line-start=53 data-line-end=54><a id="PyBank_53"></a>PyBank</h3>
+    <p class="has-line-data" data-line-start="54" data-line-end="55">This script can be used to analyze any financial
+        data. It was able to determine on its own how many months there were, calculate the net total amount, the
+        average change, the greatest increase in profit and corresponding month, and the greatest decrease in profit and
+        corresponding month. Some modifications that can be made to the script are:</p>
+    <ul>
+        <li class="has-line-data" data-line-start="55" data-line-end="56">Generalize the column names. Rather than
+            assuming the financial data always comes in a specific format, make the script flexible to handle column
+            names that might differ.</li>
+        <li class="has-line-data" data-line-start="56" data-line-end="57">Allow for multiple data sources. Instead of
+            assuming the data comes from a single .csv file, allow the user to input multiple files or connect to a
+            database.</li>
+        <li class="has-line-data" data-line-start="57" data-line-end="59">Add error handling. To prevent the script from
+            breaking if the data is not in the expected format or if there are any other errors, include error handling
+            and provide helpful error messages to the user.</li>
+    </ul>
+    <h3 class="code-line" data-line-start=59 data-line-end=60><a id="PyPoll_59"></a>PyPoll</h3>
+    <p class="has-line-data" data-line-start="60" data-line-end="61">This script can be used to analyze any election. It
+        was able to determine on its own how many different candidates and counties were in the results. It also tallied
+        the votes for each candidate, determined the winning candidate from the total votes, and found which county had
+        the most effect on the outcome of the election. Some modifications that can be made to the script are:</p>
+    <ul>
+        <li class="has-line-data" data-line-start="61" data-line-end="62">To implement additional security measures to
+            ensure the integrity of the data. For example, we can add a feature that checks for any irregularities or
+            anomalies in the data, such as duplicate or missing votes, and alerts the administrator if any issues are
+            found.</li>
+        <li class="has-line-data" data-line-start="62" data-line-end="64">We also have the possibility of breaking down
+            the data even more. With this we can display the voter’s political views, gender, ethnicity and race, and
+            age for example.</li>
+    </ul>
+    <hr>
+    <p class="has-line-data" data-line-start="65" data-line-end="66">Return to the <a
+            href="https://kenlo94.github.io/">Homepage</a></p>
+</body>
+
+</html>
